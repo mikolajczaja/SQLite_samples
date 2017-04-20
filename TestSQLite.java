@@ -129,12 +129,6 @@ public class TestSQLite{
         test.selectAllFromTable(connection,tableName2);
         test.selectAllFromTable(connection,tableName3);
         
-/*
-sqlite> PRAGMA foreign_keys = ON;
-
-executeStatement(con,"UPDATE STUDENT set NAME = 'aaa' where ID=2;");
-executeStatement(con,"DELETE from STUDENT where ID=2;");
-*/
         
     }
 }
